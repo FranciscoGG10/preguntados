@@ -1,0 +1,46 @@
+*{
+    transition: all 0.25S;
+}
+
+body {
+    background: url("../assets/FONDO\ PREGUNTAS.png") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#Encabezado{
+  width: 80vw;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.opcion{
+	width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+	background: white;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.opcion:hover{
+	background-color: lightgray;
+}
